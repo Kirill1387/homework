@@ -31,7 +31,150 @@ img {
     max-width: 1280px;
     margin: 0 auto;
 }
+#hw3{
+
+    width: 1280px;
+    height: 372px;
+}
+#hw3-button{
+    border-left: none;
+    background-color: #0066CC;
+    color: #D9D9D9;
+    width: 78px;
+    height: 36px;
+    border-radius: 3px;
+
+}
+
+#hw3-input{
+    flex: 1;
+    width: 372px;
+    height: 36px;
+    display: flex;
+}
+
+
+#hw4 {
+    width: 1280px;
+    height: 372px;
+}
+
+#hw4-super-input-like-old {
+    width: 372px;
+    height: 36px;
+}
+
+#hw4-super-input-with-error {
+    width: 372px;
+    height: 36px;
+}
+
+
+#hw4-super-button-default{
+    width: 149px;
+    height: 30px;
+    background-color: #0066CC;
+    color: white;
+    border-radius:3px;
+    border:1px;
+}
+
+#hw4-super-button-red {
+    width: 149px;
+    height: 30px;
+    background-color: #CC1439;
+    color: white;
+    border-radius:3px;
+    border:1px;
+}
+
+#hw4-super-button-disabled {
+    width: 133px;
+    height: 30px;
+    background-color: #004D99;
+    color: black;
+    border-radius:3px;
+    border:1px;
+}
+
+#hw4-super-button-secondary{
+    width: 149px;
+    height: 30px;
+    background-color: #C9E5FF;
+    color: #0066CC;
+    border-radius:3px;
+    border:1px;
+}
 
 
 
+#hw4-super-button-default:active {
+    width: 149px;
+    height: 30px;
+    background-color: #0059B2;
+    color: white;
+    border-radius:3px;
+    border:1px;
+}
 
+#hw4-super-button-red:active {
+    width: 149px;
+    height: 30px;
+    background-color: #B21232;
+    color: white;
+    border-radius:3px;
+    border:1px;
+}
+
+#hw4-super-button-disabled:active {
+    width: 133px;
+    height: 30px;
+    background-color: #004D99;
+    color: black;
+    border-radius:3px;
+    border:1px;
+}
+
+#hw4-super-button-secondary:active {
+    width: 149px;
+    height: 30px;
+    background-color: #C9E5FF;
+    color: #0066CC;
+    border-radius:3px;
+    border:1px;
+}
+#hw4-super-button-default:hover {
+    width: 149px;
+    height: 30px;
+    background-color: #0080FF;
+    color: white;
+    border-radius:3px;
+    border:1px;
+}
+
+#hw4-super-button-red:hover {
+    width: 149px;
+    height: 30px;
+    background-color: #FF1A47;
+    color: white;
+    border-radius:3px;
+    border:1px;
+}
+
+#hw4-super-button-disabled:hover {
+    width: 133px;
+    height: 30px;
+    background-color: #004D99;
+    color: #002E5C;
+    border-radius:3px;
+    border:1px;
+}
+
+#hw4-super-button-secondary:hover {
+    width: 149px;
+    height: 30px;
+    background-color: #E5F0FA;
+    color: #0066CC;
+    border-radius:3px;
+    border:1px;
+}
