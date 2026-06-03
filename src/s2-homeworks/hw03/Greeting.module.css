@@ -19,8 +19,8 @@
 .input:focus {
 }
 
-.errorInput {
-border: #cc0000 solid 1px;
+.errorInput{
+ border: #cc0000 solid 1px;
 }
 
 .button {
@@ -33,7 +33,7 @@ border: #cc0000 solid 1px;
 }
 
 .button:disabled {
-
+color: #6babed;
 }
 
 .text {
