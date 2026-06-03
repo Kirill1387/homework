@@ -57,13 +57,13 @@ const Greeting: React.FC<GreetingPropsType> = (
                     className={s.button}
                     disabled={!name.trim()}
                 >
-                    add
+                    Add
                 </button>
 
             </div>
             {lastUserName && (
                 <div className={s.greeting}>
-                    Привет <span id={'hw3-last-user'}>{lastUserName}</span>!
+                    Привет <span id={'hw3-last-user'}>{lastUserName}</span>
                 </div>
             )}
         </div>
