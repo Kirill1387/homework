@@ -1,16 +1,13 @@
 .greetingForm {
-    /*border: #00cc22 solid 1px;*/
     margin-left: 60px;
 }
 
 .inputAndButtonContainer {
-    /*border: #cc0000 solid 1px;*/
     position: static;
 }
 
 .error {
     color: #cc0000;
-    /*border: yellow solid 1px;*/
     position: absolute;
     margin-right: 900px;
 
@@ -22,8 +19,8 @@
 .input:focus {
 }
 
-.errorInput {
-
+.errorInput{
+ border: #cc0000 solid 1px;
 }
 
 .button {
@@ -36,7 +33,7 @@
 }
 
 .button:disabled {
-
+color: #6babed;
 }
 
 .text {
