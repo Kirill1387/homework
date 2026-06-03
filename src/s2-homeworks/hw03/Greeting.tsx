@@ -69,5 +69,5 @@ const Greeting: React.FC<GreetingPropsType> = (
         </div>
     )
 }
-
+//
 export default Greeting
