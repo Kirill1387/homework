@@ -19,12 +19,13 @@ const HW6 = () => {
     }
     const restore = () => {
         // делают студенты
+        setValue("")
 
     }
 
     return (
         <div id={'hw6'}>
-            <div className={s2.hwTitle}>Homework #6</div>
+            <div className={s2.hwTitle}>Homework № 6</div>
 
             {/*демонстрация возможностей компоненты:*/}
             <div className={s2.hw}>
@@ -41,7 +42,7 @@ const HW6 = () => {
                 </div>
 
                 <div className={s.buttonsContainer}>
-                    <SuperButton id={'hw6-save'} onClick={save}>
+                    <SuperButton id={'hw6-save'} onClick={save} xType={"secondary"} >
                         Save to ls
                     </SuperButton>
                     <SuperButton

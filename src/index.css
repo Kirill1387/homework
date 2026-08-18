@@ -21,10 +21,10 @@ code {
 
 
 img {
+    outline: none;
 
 
 }
-
 
 .hw1 {
 
@@ -183,3 +183,5 @@ img {
     border-radius: 3px;
     border: 1px;
 }
+
+
